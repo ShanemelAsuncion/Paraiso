@@ -1,6 +1,6 @@
 import React from 'react';
-import { Navbar } from '../../common';
-import logo from '../../../assets/Logo.png'
+// import { Navbar } from '../../common';
+import logo from "../../assets/Logo.png"
 
 import './Header.css';
 
@@ -15,7 +15,7 @@ function Header () {
                     </a>
                 </section>
                 <section className="header-top_navbar">
-                    {<Navbar />}
+                    {/* {<Navbar />} */}
                 </section>
             </section>
             <section className='header-bottom'>

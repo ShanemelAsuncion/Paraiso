@@ -1,4 +1,4 @@
-import { Navbar } from "../../components/common";
+import Navbar from "../../components/navbar/Navbar";
 
 function NavbarTest(){
 
@@ -6,7 +6,7 @@ function NavbarTest(){
     return(
         <div>
             Hello: Navbar test route
-
+            <Navbar />
         </div>
     )
 }

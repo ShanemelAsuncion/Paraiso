@@ -1,10 +1,11 @@
-import { Header } from './components/common'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home
  from './pages/Home';
 import Rooms from './pages/Rooms';
 import NavbarTest from './pages/tests/NavbarTest';
 import ButtonTest from './pages/tests/ButtonTest';
+import HeaderTest from './pages/tests/HeaderTest';
+
 const router = createBrowserRouter([ 
   {
     path:"/",
@@ -24,6 +25,11 @@ const router = createBrowserRouter([
   {
     path:"/buttonTest",
     element: <ButtonTest />
+  },
+
+  {
+    path:"/headerTest",
+    element: <HeaderTest />
   }
 
 ])

@@ -5,6 +5,7 @@ import Rooms from './pages/Rooms';
 import NavbarTest from './pages/tests/NavbarTest';
 import ButtonTest from './pages/tests/ButtonTest';
 import HeaderTest from './pages/tests/HeaderTest';
+import ImgTxtBoxTest from "./pages/tests/ImgTxtBoxTest";
 
 const router = createBrowserRouter([ 
   {
@@ -30,6 +31,11 @@ const router = createBrowserRouter([
   {
     path:"/headerTest",
     element: <HeaderTest />
+  },
+
+  {
+    path:"/imgtxtboxTest",
+    element: <ImgTxtBoxTest />
   }
 
 ])

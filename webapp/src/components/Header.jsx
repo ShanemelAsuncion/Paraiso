@@ -1,13 +1,12 @@
 import React from 'react';
 // import { Navbar } from '../../common';
-import logo from "../../assets/Logo.png"
+import logo from "../assets/Logo.png";
 
-import './Header.css';
 
 function Header () {
 
     return (
-        <section className='header'>
+        <section className='header' style={styles.container}>
             <section className='header-top'>
                 <section className='header-top_logo'>
                     <a href='/' className='header-logo'>
@@ -29,6 +28,14 @@ function Header () {
         </section>
     )
 
+}
+
+
+const styles = {
+    container: {
+        height: "100%",
+        margin: "0 auto",
+    },
 }
 
 export default Header;

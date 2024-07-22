@@ -4,7 +4,9 @@ import BannerImg2 from "../assets/shadeBeach.jpg";
 import BarImg from "../assets/bar.jpg";
 import KitchenImg from "../assets/kitchen.jpg";
 import FoodImg from "../assets/food.jpg";
-import { Colors, FontSize } from "../components/styles";
+import BeachImg from "../assets/beach.jpg";
+import { Colors, FontSize, Spacing } from "../components/styles";
+import { ThemedButton } from "../components/ThemedButton";
 
 function Home(){
 
@@ -39,6 +41,14 @@ function Home(){
                     </div>
                 </div>
             </div>
+            <div style={{display: "flex", padding: "100px"}}>
+                <img src={BeachImg} style={{height: "450px",}}/>
+                <div style={styles.deals}>
+                    <h2>Deals You Can't Resist</h2>
+                    <p>Vestibulum interdum nisi bibendum arcu sagittis elementum. Phasellus quis ornare massa, vel consequat purus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam scelerisque, erat interdum tempus commodo, neque erat gravida metus, eu pellentesque arcu tortor nec nisl. Donec enim urna, ultricies eu tristique mollis, fringilla sed felis. Sed laoreet consectetur nulla non ullamcorper.</p>
+                    <ThemedButton color='green'type="outline" label="VIEW ALL DEALS" />
+                </div>
+            </div>
         </div>
     )
 }
@@ -49,7 +59,7 @@ const styles = {
     banner: {
         backgroundImage: `url(${BannerBgImg})`,
         backgroundSize: 'cover',
-        height: "100vh",
+        height: "80vh",
         opacity: "92%",
         color: 'white',
         fontSize: FontSize.md,
@@ -73,7 +83,7 @@ const styles = {
         justifyContent: 'space-between',
         fontFamily: 'Crimson Pro',
         fontSize:'40px',
-        height: "100vh",
+        height: "80vh",
         letterSpacing: '5px',
     },
     banner__img2:{
@@ -84,5 +94,11 @@ const styles = {
         margin: '0 120px 120px 0',
         width: '400px'
     },
-    
+    deals: {
+        textAlign: "center",
+        display: "flex",
+        alignItems: "center",
+        flexDirection: "column",
+        margin: Spacing.lg
+    }
 }

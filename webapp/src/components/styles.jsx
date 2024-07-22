@@ -1,6 +1,8 @@
 export const Colors = {
     darkGreen : '#0D1F14',
     neutral : '#BCBCBC',
+    bg: '#F6F6F6',
+
 }
 
 export const Spacing = {

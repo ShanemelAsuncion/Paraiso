@@ -6,10 +6,10 @@ const StyledButton = styled.button`
     background-color: ${(props) => (props.type == 'outline' ?'transparent' : props.color)};
     font-size: 20px;
     color: ${(props) => (props.color == Colors.darkGreen & props.type == 'filled' ? 'white' : 'black')};
-    border: solid 3px;
+    border: solid 5px;
     border-color:  ${(props) => (props.color == 'neutral' ? Colors.neutral: Colors.darkGreen)};
     padding:20px;
-    width: 200px;
+    width: 250px;
     font-family:Cormorant;
     font-weight:700;
     margin: 20px;    

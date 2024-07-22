@@ -1,20 +1,21 @@
 export const Colors = {
     darkGreen : '#0D1F14',
     neutral : '#BCBCBC',
+    bg: '#F6F6F6',
+
 }
 
 export const Spacing = {
-    screen_p: 28,
-    xl: 48,
-    lg: 24,
-    md: 16,
-    sm: 8,
-    xs: 4,
+    xl: "70px",
+    lg: "50px",
+    md: "20px",
+    sm: "10px",
+    xs: "5px",
 };
 
 export const FontSize = {
-    lg: 48,
-    md: 24,
-    sm: 16,
-    xs: 12,
+    lg: "50px",
+    md: "30px",
+    sm: "20px",
+    xs: "15px",
 };

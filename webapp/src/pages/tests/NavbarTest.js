@@ -5,7 +5,6 @@ function NavbarTest(){
 
     return(
         <div>
-            Hello: Navbar test route
             <Navbar />
         </div>
     )

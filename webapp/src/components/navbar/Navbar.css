@@ -1,0 +1,76 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px; /* Adjust as needed to move the navbar further down */
+    width: 100%;
+    justify-content: center; /* Center the nav element */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(52, 52, 52, 0.5);
+    width: 1144px;
+    height: 56px; 
+    border-radius: 30px; 
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 30px; /* Add some margin for spacing between items */
+}
+
+.nav__list_two {
+    color: white;
+} 
+
+.nav__link {
+    text-decoration: none; /* Remove underline */
+    color: white; /* Set link color */
+    transition: color 0.3s; /* Smooth transition for color change */
+    position: relative;
+}
+
+.nav__link:hover {
+    transition: all 0.2s;
+}
+
+.nav__link::after {
+    content: '';
+    opacity: 0;
+    transition: all 0.2s;
+    height: 1px;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.nav__link:hover::after {
+    opacity: 1;
+}
+
+.DropDown {
+    margin-right: 10px;
+    position: absolute;
+    height: 24px;
+    width: 24px;
+}
+
+.nav__item {
+    cursor: pointer;
+}

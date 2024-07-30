@@ -1,7 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home
  from './pages/Home';
-import Rooms from './pages/Rooms';
+import Rooms from './pages/rooms/Rooms';
 import NavbarTest from './pages/tests/NavbarTest';
 import ButtonTest from './pages/tests/ButtonTest';
 import HeaderTest from './pages/tests/HeaderTest';

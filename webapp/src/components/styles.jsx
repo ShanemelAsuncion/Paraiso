@@ -19,3 +19,7 @@ export const FontSize = {
     sm: "20px",
     xs: "15px",
 };
+
+export default function Button({ children }) {
+    return <button>{children}</button>;
+  }

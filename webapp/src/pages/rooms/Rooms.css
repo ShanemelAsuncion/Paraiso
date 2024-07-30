@@ -1,12 +1,86 @@
-.rooms-container {
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Mate:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Mate:ital@0;1&display=swap');
+
+.navbar-container {
     display: flex;
-    align-items: center; 
-    padding: 10px; 
+    align-items: center;
+    padding: 10px;
 }
 
 .logo {
-    margin-right: 20px; 
     width: 96px;
-    height: 69.92;
+    height: 70px; /* fixed height for better layout */
+    margin-right: 20px; /* Adds space between logo and navbar */
 }
 
+.room:nth-child(odd) .roomDescription {
+    order: 2; /* Reorder for odd rows to place description to the right */
+}
+
+.room:nth-child(even) .roomDescription {
+    order: 1; /* Reorder for even rows to place description to the left */
+}
+
+.room:nth-child(even) .roomImg {
+    order: 2; /* Reorder for even rows to place image to the right */
+}
+
+h1 {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 64px;
+    text-align: left;    
+}
+
+h2 {
+    font-family: "Crimson Pro", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: light;
+    font-size: 32px;
+}
+
+li {
+    font-family: "Crimson Pro", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: light;
+    font-size: 15px; 
+}
+
+/* Container for the entire rooms section */
+.rooms-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns items to the start of the container */
+    padding: 20px;
+    margin-left: 20px; /* Adjust to align with h1 */
+}
+
+.room {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px; /* Space between each room block */
+    width: 100%; /* Ensures the room container takes full width */
+}
+
+/* Ensures image size and padding */
+.roomImg {
+    width: 619px; /* Adjust the size as needed */
+    height: auto;
+    padding: 79px 0;
+}
+
+/* Ensures description alignment and max width */
+.roomDescription {
+    max-width: 400px; /* Adjust as needed */
+    flex: 1; /* Ensures description takes up available space */
+    padding-left: 85px;
+}
+
+.roomDescription ul {
+    list-style: none;
+    padding: 0;
+}

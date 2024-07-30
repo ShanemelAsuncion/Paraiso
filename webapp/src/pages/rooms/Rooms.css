@@ -1,0 +1,12 @@
+.rooms-container {
+    display: flex;
+    align-items: center; 
+    padding: 10px; 
+}
+
+.logo {
+    margin-right: 20px; 
+    width: 96px;
+    height: 69.92;
+}
+

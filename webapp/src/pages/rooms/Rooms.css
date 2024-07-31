@@ -56,7 +56,6 @@ li {
     flex-direction: column;
     align-items: flex-start; /* Aligns items to the start of the container */
     padding: 20px;
-    margin-left: 20px; /* Adjust to align with h1 */
 }
 
 .room {
@@ -71,6 +70,8 @@ li {
     width: 619px; /* Adjust the size as needed */
     height: auto;
     padding: 79px 0;
+    margin-top: -100px;
+
 }
 
 /* Ensures description alignment and max width */
@@ -78,9 +79,25 @@ li {
     max-width: 400px; /* Adjust as needed */
     flex: 1; /* Ensures description takes up available space */
     padding-left: 85px;
+    margin-top: -50px;
 }
 
 .roomDescription ul {
     list-style: none;
     padding: 0;
+}
+
+.roomDescription ul li img {
+    margin-right: 10px; /* Space between icon and text */
+    margin-top: 10px; /* Adjust this value to move the icons down */
+    transform: translateY(5px);
+    
+}
+
+.roomDescription ul li {
+    line-height: 1.5;
+}
+
+.roomDescription ul li img.userIcon {
+    margin-right: 20px; /* Adjust this value to move the userIcon further right */
 }

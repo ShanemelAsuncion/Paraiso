@@ -28,13 +28,13 @@ function Rooms() {
                     <div className="roomDescription">
                         <h2>Junior Room, 2 Double Beds</h2>
                         <ul>
-                            <li>All-inclusive (food/beverages/snacks)</li>
-                            <li>Free WiFi</li>
-                            <li>Free breakfast</li>
-                            <li>Free self parking</li>
-                            <li>Sleeps 2</li>
-                            <li>36 sq m</li>
-                            <li>2 Double Beds</li>
+                            <li><img src={infinityIcon} alt="Infinity Pool" /> All-inclusive (food/beverages/snacks)</li>
+                            <li><img src={wifiIcon} alt="WiFi" /> Free WiFi</li>
+                            <li><img src={coffeeIcon} alt="Coffee" /> Free breakfast</li>
+                            <li><img src={carIcon} alt="Car" /> Free self parking</li>
+                            <li><img src={userPic} alt="User" className="userIcon"/> Sleeps 2</li>
+                            <li><img src={sizeIcon} alt="Room Size" /> 36 sq m</li>
+                            <li><img src={bedIcon} alt="Bed" /> 2 Double Beds</li>
                         </ul>
                         <Button>Book Now</Button>
                     </div>
@@ -44,13 +44,13 @@ function Rooms() {
                     <div className="roomDescription">
                         <h2>Premium Room</h2>
                         <ul>
-                            <li>All-inclusive (food/beverages/snacks)</li>
-                            <li>Free WiFi</li>
-                            <li>Free breakfast</li>
-                            <li>Free self parking</li>
-                            <li>Sleeps 2</li>
-                            <li>36 sq m</li>
-                            <li>1 King Bed</li>
+                            <li><img src={infinityIcon} alt="Infinity Pool" /> All-inclusive (food/beverages/snacks)</li>
+                            <li><img src={wifiIcon} alt="WiFi" /> Free WiFi</li>
+                            <li><img src={coffeeIcon} alt="Coffee" /> Free breakfast</li>
+                            <li><img src={carIcon} alt="Car" /> Free self parking</li>
+                            <li><img src={userPic} alt="User" className="userIcon"/> Sleeps 2</li>
+                            <li><img src={sizeIcon} alt="Room Size" /> 36 sq m</li>
+                            <li><img src={bedIcon} alt="Bed" /> 2 Double Beds</li>
                         </ul>
                         <Button>Book Now</Button>
                     </div>
@@ -60,13 +60,13 @@ function Rooms() {
                     <div className="roomDescription">
                         <h2>Queen Room</h2>
                         <ul>
-                            <li>All-inclusive (food/beverages/snacks)</li>
-                            <li>Free WiFi</li>
-                            <li>Free breakfast</li>
-                            <li>Free self parking</li>
-                            <li>Sleeps 4</li>
-                            <li>36 sq m</li>
-                            <li>2 Queen Beds</li>
+                            <li><img src={infinityIcon} alt="Infinity Pool" /> All-inclusive (food/beverages/snacks)</li>
+                            <li><img src={wifiIcon} alt="WiFi" /> Free WiFi</li>
+                            <li><img src={coffeeIcon} alt="Coffee" /> Free breakfast</li>
+                            <li><img src={carIcon} alt="Car" /> Free self parking</li>
+                            <li><img src={userPic} alt="User" className="userIcon"/> Sleeps 2</li>
+                            <li><img src={sizeIcon} alt="Room Size" /> 36 sq m</li>
+                            <li><img src={bedIcon} alt="Bed" /> 2 Double Beds</li>
                         </ul>
                         <Button>Book Now</Button>
                     </div>

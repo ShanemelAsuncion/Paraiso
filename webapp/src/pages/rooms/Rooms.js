@@ -17,12 +17,12 @@ import petIcon from '../../assets/icons/pet.png'
 import foodIcon from '../../assets/icons/food.png'
 import gymIcon from '../../assets/icons/guidance_gym.png'
 import planeIcon from '../../assets/icons/guidance_plane.png'
-import starsIcon from '../../assets/review stars.png'
+import starsIcon from '../../assets/review_stars.png'
 
 function Rooms() {
     return (
         <div className='rooms-page'>
-            <div className="navbar-container">
+            <div className="navbar-container-logo">
                 <img src={logo} alt="Logo" className="logo" />
                 <Navbar />
             </div>
@@ -77,31 +77,68 @@ function Rooms() {
                     </div>
                 </div>
             </div>
-            <h1>Additional Amenties</h1>
-            <ul>
-                <li><img src={petIcon} alt="Pet Icon"/>PET FRIENDLY</li>
-                <li><img src={planeIcon} alt="Plane Icon"/>COMPLIMENTARY AIRPORT
-                TRANSFERS</li>
-                <li><img src={foodIcon} alt="Food Icon"/>WORLD-CLASS DINING</li>
-                <li><img src={gymIcon} alt="Gym Icon"/>24-HOUR FITNESS ROOM</li>
-            </ul>
+            <h1>Additional Amenities</h1>
+            <div className="amenities-row">
+                <div className="amenities-column">
+                    <ul>
+                        <li><img src={petIcon} alt="Pet Icon"/> PET FRIENDLY</li>
+                        <li><img src={planeIcon} alt="Plane Icon"/> COMPLIMENTARY AIRPORT TRANSFERS</li>
+                    </ul>
+                </div>
+                <div className="amenities-column">
+                    <ul>
+                        <li><img src={foodIcon} alt="Food Icon"/> WORLD-CLASS DINING</li>
+                        <li><img src={gymIcon} alt="Gym Icon"/> 24-HOUR FITNESS ROOM</li>
+                    </ul>
+                </div>
+            </div>
             <h1>Latest Reviews</h1>
-            <li><img src={starsIcon} alt='Stars Icon'/>
-                “Maecenas eu erat nibh. In rhoncus eget lectus in tempor. Vivamus et risus quis est interdum lobortis ac et lectus. Mauris nec libero sem. Nulla fermentum auctor ipsum, cursus ultricies turpis sagittis vitae. Nam pellentesque eros sit amet diam mattis, various ultrices arcu volutpat. Suspendisse sit amet turpis ac arcu egestas aliquam.”
-                - Roger K. Wallace
-            </li>
-            <li><img src={starsIcon} alt='Stars Icon'/>
-                “Maecenas eu erat nibh. In rhoncus eget lectus in tempor. Vivamus et risus quis est interdum lobortis ac et lectus. Mauris nec libero sem. Nulla fermentum auctor ipsum, cursus ultricies turpis sagittis vitae. Nam pellentesque eros sit amet diam mattis, various ultrices arcu volutpat. Suspendisse sit amet turpis ac arcu egestas aliquam.”
-                - Roger K. Wallace
-            </li>
-            <li><img src={starsIcon} alt='Stars Icon'/>
-                “Maecenas eu erat nibh. In rhoncus eget lectus in tempor. Vivamus et risus quis est interdum lobortis ac et lectus. Mauris nec libero sem. Nulla fermentum auctor ipsum, cursus ultricies turpis sagittis vitae. Nam pellentesque eros sit amet diam mattis, various ultrices arcu volutpat. Suspendisse sit amet turpis ac arcu egestas aliquam.”
-                - Roger K. Wallace
-            </li>
-            <li><img src={starsIcon} alt='Stars Icon'/>
-                “Maecenas eu erat nibh. In rhoncus eget lectus in tempor. Vivamus et risus quis est interdum lobortis ac et lectus. Mauris nec libero sem. Nulla fermentum auctor ipsum, cursus ultricies turpis sagittis vitae. Nam pellentesque eros sit amet diam mattis, various ultrices arcu volutpat. Suspendisse sit amet turpis ac arcu egestas aliquam.”
-                - Roger K. Wallace
-            </li>
+            <div className='review-section'>
+                <div className='review-col-sec'>
+                    <ul>
+                        <li>
+                            <div className="review-content">
+                                <img src={starsIcon} alt='Stars Icon' className='starsImg'/>
+                                <p>
+                                    “Maecenas eu erat nibh. In rhoncus eget lectus in tempor. Vivamus et risus quis est interdum lobortis ac et lectus. Mauris nec libero sem. Nulla fermentum auctor ipsum, cursus ultricies turpis sagittis vitae. Nam pellentesque eros sit amet diam mattis, various ultrices arcu volutpat. Suspendisse sit amet turpis ac arcu egestas aliquam.”
+                                    - Roger K. Wallace
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div className="review-content">
+                                <img src={starsIcon} alt='Stars Icon' className='starsImg'/>
+                                <p>
+                                    “Maecenas eu erat nibh. In rhoncus eget lectus in tempor. Vivamus et risus quis est interdum lobortis ac et lectus. Mauris nec libero sem. Nulla fermentum auctor ipsum, cursus ultricies turpis sagittis vitae. Nam pellentesque eros sit amet diam mattis, various ultrices arcu volutpat. Suspendisse sit amet turpis ac arcu egestas aliquam.”
+                                    - Roger K. Wallace
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div className='review-col-sec'>
+                    <ul>
+                        <li>
+                            <div className="review-content">
+                                <img src={starsIcon} alt='Stars Icon' className='starsImg'/>
+                                <p>
+                                    “Maecenas eu erat nibh. In rhoncus eget lectus in tempor. Vivamus et risus quis est interdum lobortis ac et lectus. Mauris nec libero sem. Nulla fermentum auctor ipsum, cursus ultricies turpis sagittis vitae. Nam pellentesque eros sit amet diam mattis, various ultrices arcu volutpat. Suspendisse sit amet turpis ac arcu egestas aliquam.”
+                                    - Roger K. Wallace
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div className="review-content">
+                                <img src={starsIcon} alt='Stars Icon' className='starsImg'/>
+                                <p>
+                                    “Maecenas eu erat nibh. In rhoncus eget lectus in tempor. Vivamus et risus quis est interdum lobortis ac et lectus. Mauris nec libero sem. Nulla fermentum auctor ipsum, cursus ultricies turpis sagittis vitae. Nam pellentesque eros sit amet diam mattis, various ultrices arcu volutpat. Suspendisse sit amet turpis ac arcu egestas aliquam.”
+                                    - Roger K. Wallace
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     );
 }

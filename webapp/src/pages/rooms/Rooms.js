@@ -12,11 +12,16 @@ import infinityIcon from '../../assets/icons/infinite.png';
 import bedIcon from '../../assets/icons/material-symbols-light_bed-outline.png';
 import carIcon from '../../assets/icons/ph_car-light.png';
 import wifiIcon from '../../assets/icons/wifi.png';
-import Button from '../../components/styles';
+import Button from '../../components/Button';
+import petIcon from '../../assets/icons/pet.png'
+import foodIcon from '../../assets/icons/food.png'
+import gymIcon from '../../assets/icons/guidance_gym.png'
+import planeIcon from '../../assets/icons/guidance_plane.png'
+import starsIcon from '../../assets/review stars.png'
 
 function Rooms() {
     return (
-        <div>
+        <div className='rooms-page'>
             <div className="navbar-container">
                 <img src={logo} alt="Logo" className="logo" />
                 <Navbar />
@@ -36,7 +41,7 @@ function Rooms() {
                             <li><img src={sizeIcon} alt="Room Size" /> 36 sq m</li>
                             <li><img src={bedIcon} alt="Bed" /> 2 Double Beds</li>
                         </ul>
-                        <Button>Book Now</Button>
+                        <Button>Book</Button>
                     </div>
                 </div>
                 <div className="room">
@@ -52,7 +57,7 @@ function Rooms() {
                             <li><img src={sizeIcon} alt="Room Size" /> 36 sq m</li>
                             <li><img src={bedIcon} alt="Bed" /> 2 Double Beds</li>
                         </ul>
-                        <Button>Book Now</Button>
+                        <Button>Book</Button>
                     </div>
                 </div>
                 <div className="room">
@@ -68,10 +73,35 @@ function Rooms() {
                             <li><img src={sizeIcon} alt="Room Size" /> 36 sq m</li>
                             <li><img src={bedIcon} alt="Bed" /> 2 Double Beds</li>
                         </ul>
-                        <Button>Book Now</Button>
+                        <Button>Book </Button>
                     </div>
                 </div>
             </div>
+            <h1>Additional Amenties</h1>
+            <ul>
+                <li><img src={petIcon} alt="Pet Icon"/>PET FRIENDLY</li>
+                <li><img src={planeIcon} alt="Plane Icon"/>COMPLIMENTARY AIRPORT
+                TRANSFERS</li>
+                <li><img src={foodIcon} alt="Food Icon"/>WORLD-CLASS DINING</li>
+                <li><img src={gymIcon} alt="Gym Icon"/>24-HOUR FITNESS ROOM</li>
+            </ul>
+            <h1>Latest Reviews</h1>
+            <li><img src={starsIcon} alt='Stars Icon'/>
+                “Maecenas eu erat nibh. In rhoncus eget lectus in tempor. Vivamus et risus quis est interdum lobortis ac et lectus. Mauris nec libero sem. Nulla fermentum auctor ipsum, cursus ultricies turpis sagittis vitae. Nam pellentesque eros sit amet diam mattis, various ultrices arcu volutpat. Suspendisse sit amet turpis ac arcu egestas aliquam.”
+                - Roger K. Wallace
+            </li>
+            <li><img src={starsIcon} alt='Stars Icon'/>
+                “Maecenas eu erat nibh. In rhoncus eget lectus in tempor. Vivamus et risus quis est interdum lobortis ac et lectus. Mauris nec libero sem. Nulla fermentum auctor ipsum, cursus ultricies turpis sagittis vitae. Nam pellentesque eros sit amet diam mattis, various ultrices arcu volutpat. Suspendisse sit amet turpis ac arcu egestas aliquam.”
+                - Roger K. Wallace
+            </li>
+            <li><img src={starsIcon} alt='Stars Icon'/>
+                “Maecenas eu erat nibh. In rhoncus eget lectus in tempor. Vivamus et risus quis est interdum lobortis ac et lectus. Mauris nec libero sem. Nulla fermentum auctor ipsum, cursus ultricies turpis sagittis vitae. Nam pellentesque eros sit amet diam mattis, various ultrices arcu volutpat. Suspendisse sit amet turpis ac arcu egestas aliquam.”
+                - Roger K. Wallace
+            </li>
+            <li><img src={starsIcon} alt='Stars Icon'/>
+                “Maecenas eu erat nibh. In rhoncus eget lectus in tempor. Vivamus et risus quis est interdum lobortis ac et lectus. Mauris nec libero sem. Nulla fermentum auctor ipsum, cursus ultricies turpis sagittis vitae. Nam pellentesque eros sit amet diam mattis, various ultrices arcu volutpat. Suspendisse sit amet turpis ac arcu egestas aliquam.”
+                - Roger K. Wallace
+            </li>
         </div>
     );
 }

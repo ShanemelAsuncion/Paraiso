@@ -2,11 +2,11 @@ export const Colors = {
     darkGreen : '#0D1F14',
     neutral : '#BCBCBC',
     bg: '#F6F6F6',
-
-}
+    black: '#000000',
+};
 
 export const Spacing = {
-    xl: "70px",
+    xl: "100px",
     lg: "50px",
     md: "20px",
     sm: "10px",
@@ -16,10 +16,12 @@ export const Spacing = {
 export const FontSize = {
     lg: "50px",
     md: "30px",
+    smC: "24",
     sm: "20px",
     xs: "15px",
 };
 
-export default function Button({ children }) {
-    return <button>{children}</button>;
-  }
+export const FontFamily = {
+    button: 'EB Garamond',
+};
+

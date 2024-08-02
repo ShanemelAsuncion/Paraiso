@@ -22,7 +22,7 @@ import starsIcon from '../../assets/review_stars.png'
 function Rooms() {
     return (
         <div className='rooms-page'>
-            <div className="navbar-container-logo">
+            <div className="header-container">
                 <img src={logo} alt="Logo" className="logo" />
                 <Navbar />
             </div>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
 html, body {
     height: 100%;
     margin: 0;
@@ -21,9 +23,24 @@ html, body {
     gap: 50px;
     list-style: none;
     padding: 0;
+    font-family: "Crimson Pro", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16;
+
 }
 
 .nav__link {
     text-decoration: none;
     color: black;
+}
+
+.nav__item_dropdown {
+    display: flex;
+}
+
+.DropDown {
+    width: 24px;
+    height: 24px;
 }

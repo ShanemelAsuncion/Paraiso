@@ -11,6 +11,10 @@ html, body {
 
 .rooms-page {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
 }
 
 .header-container {
@@ -18,11 +22,136 @@ html, body {
     display: flex;
     align-items: center; 
     justify-content: center;
-    margin: 0 auto; 
+}
+
+.rooms-container {
+    margin: 0 138px 0 138px;
+}
+
+.logo {
+    height: 76px;
+    width: 96px;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+h1 {
+    font-family: "Crimson Pro", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 48px;
+}
+
+h2 {
+    font-family: "Crimson Pro", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 32px;
+}
+
+.roomDescription ul li {
+    font-family: "Crimson Pro", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.room {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.room:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.image-col {
+    flex: 50%;
+}
+ 
+.roomDescription {
+    width: 428px;
+    height: 425px;
 }
 
 
-.logo {
-    padding-right: 15px;
-    padding-top: 10px;
+.roomDescription ul li img {
+    width: 15px;
+    height: 9px;
+    padding-right: 10px;
+}
+
+.roomDescription ul li{
+    list-style: none;  
+    margin-bottom: 22px; 
+    text-align: start;
+
+}
+
+.roomDescription Button {
+    display: block;
+    margin: 20px auto 0;
+}
+
+.roomImg {
+    width: 703px;
+    height: 468px;
+}
+
+.amenities-row {
+    display: flex;
+    justify-content: center;
+    gap: 50px; 
+    margin: 50px 0 50px 0;
+
+}
+
+.amenities-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.amenities-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.amenities-column ul li {
+    font-family: "Crimson Pro", serif;
+    font-size: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.amenities-column ul li img {
+    margin-right: 10px;
+    width: 96px;
+    height: 96px;
+}
+
+.starsImg {
+    width: 112px;
+    height: 24px;
+
+}
+
+.review-section {
+    text-align: center;
+}
+
+.review-section ul {
+    list-style: none;
+    padding: 0 100px 0 100px;
+}
+
+.review-section {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+    margin: 50px 100px 0px 100px;
 }

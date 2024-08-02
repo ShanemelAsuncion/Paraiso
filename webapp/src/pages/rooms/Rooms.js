@@ -29,7 +29,9 @@ function Rooms() {
             <h1>Choose Your Room</h1>
             <div className="rooms-container">
                 <div className="room">
-                    <img src={roomOne} alt="Room Image" className="roomImg" />
+                    <div className='image-col'>
+                        <img src={roomOne} alt="Room Image" className="roomImg" />
+                    </div>
                     <div className="roomDescription">
                         <h2>Junior Room, 2 Double Beds</h2>
                         <ul>

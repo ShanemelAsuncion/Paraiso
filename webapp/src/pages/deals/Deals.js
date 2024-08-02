@@ -4,6 +4,7 @@ import Navbar from '../../components/navbar/Navbar';
 import logo from '../../assets/Logo_black.png';
 import dealOne from '../../assets/deals_pics/dealOne.png'
 import dealTwo from '../../assets/deals_pics/dealTwo.png' 
+import Button from '../../components/DealsButton'
 
 
 function Deals () {
@@ -24,7 +25,8 @@ function Deals () {
                             tempor non metus quis, ultrices interdum velit. Pellentesque orci nisi, tincidunt at nisi sit amet, 
                             dignissim accumsan tortor. Etiam ullamcorper viverra lectus ac imperdiet. Integer viverra ac purus ut ornare. 
                         </p>
-                        <button>BOOK NOW</button>
+                        <button className="deal-button">BOOK NOW</button>
+
                     </div>
                     <div className='deals-item'>
                         <img src={dealTwo} alt="Deal one Image" className="DealImg" />
@@ -33,7 +35,7 @@ function Deals () {
                             Quisque nunc ante, consectetur sed sapien vitae, bibendum mollis lacus. Duis vel arcu vel lectus pretium ultrices. 
                             Nullam aliquam, risus quis maximus auctor, elit dui vestibulum enim, at porta justo lacus sed sem.
                         </p>
-                        <button>BOOK NOW</button>
+                        <button className="deal-button">BOOK NOW</button>
                     </div>
                 </div>
             </div>

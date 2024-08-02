@@ -11,17 +11,11 @@ html, body {
 }
 
 .dealsmain-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    margin: 0 138px 0 138px;
-    width: 100vw;
-    box-sizing: border-box;
-    padding-bottom: 50px;
-}
-
-.deals-container {
-    margin: 0 138px 0 138px;
-    width: 100vw;
-    box-sizing: border-box;
+    text-align: center; 
 }
 
 .header-container {
@@ -30,6 +24,11 @@ html, body {
     align-items: center; 
     justify-content: center;
 }
+
+.deals-container {
+    margin: 0 138px 0 138px;
+}
+
 
 
 .logo {
@@ -71,6 +70,7 @@ img {
 .deals {
     display: flex;
     width: 45%;
+    gap: 10%;
     justify-content: space-between;
 }
 
@@ -79,14 +79,13 @@ img {
     flex-direction: column;
     align-items: center;
     flex-grow: 1;
-    margin-right: 50px; 
 }
 
 .deals-item p {
     height: 100px;
 }
 
-button {
+.deal-button {
     font-family: "Crimson Pro", serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -99,7 +98,7 @@ button {
     padding-bottom: 2px; 
 }
 
-button::after {
+.deal-button::after {
     content: '';
     position: absolute;
     left: 0;

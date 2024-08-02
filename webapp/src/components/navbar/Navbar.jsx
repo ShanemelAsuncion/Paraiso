@@ -21,7 +21,7 @@ function Navbar() {
                 <ul className='nav__list'>
                     <li className='nav__item_dropdown'>
                         Languages
-                        {/* <img className='DropDown' src={ dropDown } alt="Drop down icon" />  */}
+                        <img className='DropDown' src={ dropDown } alt="Drop down icon" /> 
                     </li>
                     <li className='nav__item'>
                         My Account

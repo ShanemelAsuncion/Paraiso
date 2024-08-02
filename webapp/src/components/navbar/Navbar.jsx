@@ -1,12 +1,12 @@
 import React from 'react';
 import "../navbar/Navbar.css";
-import dropDown from '../../assets/icons/drop_down_icon.png'
+import dropDown from '../../assets/black_dropdown.png'
 
 
 function Navbar() {
     return (
-        <div className="navbar-container">
-            <nav>
+        <div>
+            <div className="navbar-container">
                 <ul className='nav__list'>
                     <li className='nav__item'>
                         <a className='nav__link' href="#">Home</a>
@@ -18,16 +18,16 @@ function Navbar() {
                     <a className='nav__link' href="#">Rooms</a>
                     </li>
                 </ul>
-                <ul className='nav__list_two'>
+                <ul className='nav__list'>
                     <li className='nav__item_dropdown'>
                         Languages
-                        <img className='DropDown' src={ dropDown } alt="Drop down icon" /> 
+                        {/* <img className='DropDown' src={ dropDown } alt="Drop down icon" />  */}
                     </li>
                     <li className='nav__item'>
                         My Account
                     </li>
                 </ul>
-            </nav>
+            </div>
         </div>
     );
 }

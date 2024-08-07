@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Mate:ital@0;1&display=swap');
+
+.pickroom-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    text-align: start; 
+    margin: 0 138px 0 138px;
+}
+
+.header-container {
+    width: 1204px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.intro-container {
+    height: 58px;
+    display: flex;
+    justify-content: start;
+    gap: 20px; 
+    padding-bottom: 17px;
+}
+
+.room-description img {
+    width: 17px;
+    height: 17px;
+}
+
+.rooms-container {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    align-content: center;
+}
+
+.rooms {
+    display: flex;
+    align-items: center;
+}
+
+.room-Image img {
+    width: 317px;
+    height: 211px;
+}
+
+h3 {
+    font-family: "Crimson Pro", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 32px;
+    letter-spacing: 6%;
+}
+
+h4 {
+    font-family: "Crimson Pro", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 16px;
+    letter-spacing: 6%;
+}
+
+.rooms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.select-dates-button {
+    width: 235px;
+    height: 56px;
+    font-family: "Crimson Pro", serif;
+    font-size: 16px; 
+    background-color: transparent; 
+    border: 1px solid #000000;
+    cursor: pointer; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.date-picker-container {
+    position: relative; 
+}
+
+.date-range-calendar {
+    position: absolute;
+    top: 100%; /* Position it just below the button */
+    left: 0;
+    z-index: 10; /* Ensure it appears above other elements */
+    background-color: white; /* Optional: ensure the calendar background is visible */
+    border: 1px solid #ccc; /* Optional: border around the calendar */
+    padding: 10px; /* Optional: add some padding around the calendar */
+    left: -255px;
+}

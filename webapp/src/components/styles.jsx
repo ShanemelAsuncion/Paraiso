@@ -1,3 +1,4 @@
+
 export const Colors = {
     darkGreen : '#0D1F14',
     neutral : '#BCBCBC',
@@ -22,6 +23,7 @@ export const FontSize = {
 };
 
 export const FontFamily = {
-    button: 'EB Garamond',
+    button: 'Crimson Pro, serif',
+    normal: 'Crimson Pro, serif',
 };
 

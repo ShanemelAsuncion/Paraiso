@@ -12,7 +12,7 @@ import infinityIcon from '../../assets/icons/infinite.png';
 import bedIcon from '../../assets/icons/material-symbols-light_bed-outline.png';
 import carIcon from '../../assets/icons/ph_car-light.png';
 import wifiIcon from '../../assets/icons/wifi.png';
-import Button from '../../components/Button';
+import { ThemedButton } from '../../components/ThemedButton';
 import petIcon from '../../assets/icons/pet.png'
 import foodIcon from '../../assets/icons/food.png'
 import gymIcon from '../../assets/icons/guidance_gym.png'
@@ -43,7 +43,7 @@ function Rooms() {
                             <li><img src={sizeIcon} alt="Room Size" /> 36 sq m</li>
                             <li><img src={bedIcon} alt="Bed" /> 2 Double Beds</li>
                         </ul>
-                        <Button>Book</Button>
+                        <ThemedButton color='neutral'type="outline" label="Book" />
                     </div>
                 </div>
                 <div className="room">
@@ -59,7 +59,7 @@ function Rooms() {
                             <li><img src={sizeIcon} alt="Room Size" /> 36 sq m</li>
                             <li><img src={bedIcon} alt="Bed" /> 2 Double Beds</li>
                         </ul>
-                        <Button>Book</Button>
+                        <ThemedButton color='neutral'type="outline" label="Book" />
                     </div>
                 </div>
                 <div className="room">
@@ -75,7 +75,7 @@ function Rooms() {
                             <li><img src={sizeIcon} alt="Room Size" /> 36 sq m</li>
                             <li><img src={bedIcon} alt="Bed" /> 2 Double Beds</li>
                         </ul>
-                        <Button>Book </Button>
+                        <ThemedButton color='neutral'type="outline" label="Book" />
                     </div>
                 </div>
             </div>

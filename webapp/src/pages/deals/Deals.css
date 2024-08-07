@@ -29,8 +29,6 @@ html, body {
     margin: 0 138px 0 138px;
 }
 
-
-
 .logo {
     height: 76px;
     width: 96px;
@@ -85,26 +83,3 @@ img {
     height: 100px;
 }
 
-.deal-button {
-    font-family: "Crimson Pro", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 15px;
-    background-color: transparent;
-    border: none; 
-    position: relative;
-    cursor: pointer; 
-    padding-bottom: 2px; 
-}
-
-.deal-button::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 1px; 
-    background-color: currentColor;
-    transform: translateY(10px);
-}

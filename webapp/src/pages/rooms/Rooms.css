@@ -91,6 +91,10 @@ h2 {
 
 }
 
+.roomDescription ul {
+    padding-bottom: 2;
+}
+
 .roomDescription Button {
     display: block;
     margin: 20px auto 0;

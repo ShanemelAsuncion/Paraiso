@@ -28,7 +28,7 @@ html, body {
     font-weight: 400;
     font-style: normal;
     font-size: 16;
-
+    align-items: center;
 }
 
 .nav__link {
@@ -43,4 +43,32 @@ html, body {
 .DropDown {
     width: 24px;
     height: 24px;
+}
+
+.nav__item_dropdown {
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.dropdown-items {
+    position: absolute;
+    top: 100%;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    z-index: 1000;
+    list-style: none;
+    padding: 0;
+}
+
+.dropdown-items li {
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.dropdown-items li:hover {
+    background-color: #f0f0f0;
 }
